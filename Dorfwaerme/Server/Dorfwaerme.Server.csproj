@@ -15,5 +15,11 @@
     <ProjectReference Include="..\Shared\Dorfwaerme.Shared.csproj" />
   </ItemGroup>
 
+  <ItemGroup>
+    <Folder Include="Controllers\" />
+    <Folder Include="Data\" />
+    <Folder Include="Models\" />
+  </ItemGroup>
+
 
 </Project>
