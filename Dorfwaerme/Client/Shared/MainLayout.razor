@@ -1,10 +1,16 @@
 ﻿@inherits LayoutComponentBase
 
-<MudThemeProvider />
+    <style>
+        html, body {
+            background: #e3e3e3;
+            background-color: #e3e3e3;
+        }
+    </style>
+    <MudThemeProvider />
 
-<MudLayout>
-  <NavMenu />
-    <MudMainContent>
-        @Body
-    </MudMainContent>
-</MudLayout>
+    <MudLayout>
+        <NavMenu />
+        <MudMainContent>
+            @Body
+        </MudMainContent>
+    </MudLayout>
